@@ -13,9 +13,14 @@ find . -name index.html
 
 #### Ex3 ./以下のuserを含むファイルを探す
 ```shell
-find . -name *user* -type f
+find . -name '*user*' -type f
 ```
-userだけだと、完全に一致するものしか検索しないので、\*user\*とする。
+userだけだと、完全に一致するものしか検索しないので、'\*user\*'とする。
+
+
+''については下を参照。
+https://unix.stackexchange.com/a/123441
+
 
 -type f でfileのみを、
 
